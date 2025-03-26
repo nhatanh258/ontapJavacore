@@ -1,0 +1,18 @@
+// bài tập về biến và kế thừa / abstract/ overide/ biến, method final/enum  trong java
+đề bài :
+🎯 Bài tập: Quản lý nhân sự với Final trong Java
+Mô tả:
+Công ty TechCorp có 2 loại nhân viên:
+
+Nhân viên chính thức (FullTimeEmployee): Có mức lương cố định mỗi tháng.
+
+Nhân viên thời vụ (ContractEmployee): Được trả lương theo số giờ làm việc.
+
+Công ty yêu cầu:
+
+Lương tối thiểu (MIN_SALARY) là final để đảm bảo không thay đổi.
+
+Phương thức calculateSalary() trong Employee phải là final để ngăn class con ghi đè (override).
+
+Lớp CompanyPolicy phải là final, chứa quy định chung của công ty.
+
