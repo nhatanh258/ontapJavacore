@@ -14,5 +14,5 @@ Lương tối thiểu (MIN_SALARY) là final để đảm bảo không thay đ�
 
 Phương thức calculateSalary() trong Employee phải là final để ngăn class con ghi đè (override).
 
-Lớp CompanyPolicy phải là final, chứa quy định chung của công ty.
+Lớp CompanyPolicy phải là final, chứa quy định chung của công ty. neeew
 
